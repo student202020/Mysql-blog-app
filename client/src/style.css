@@ -1,0 +1,107 @@
+
+body {
+    position: absolute;
+    left: 250px;
+}
+.authframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.auth{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 10px;
+    height: 400px;
+    background-color: rgb(186, 186, 202);
+    color: aliceblue;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+
+button {
+    padding: 7px 20px;
+    border: none;
+    background-color: rgb(97, 101, 101);
+    cursor: pointer;
+    color: white;
+    margin-top: 15px;
+  }
+
+ .both{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width:70%
+ }
+ .single{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .single img {
+    width:50%;
+    height: 50%;
+    border-radius: 100px;
+ }
+.home img {
+    width:70%;
+    height: 20%;
+    border-radius: 10px;
+ }
+ .cent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+ }
+ .lef{
+    
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    gap: 5px;
+
+ 
+ }
+ input {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(240, 237, 237);
+    background-color: rgb(186, 186, 202);
+  }
+
+  .posts {
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(186, 186, 202);
+    border-radius: 20px;
+}
+
+     
+
+        
+    
